@@ -5,7 +5,7 @@
 
 from gpiozero import MCP3208
 from time import sleep
-adC = MCP3208(channel = 0)
+adc = MCP3208(channel = 0)
 
 # loop for infinite
 while True:
